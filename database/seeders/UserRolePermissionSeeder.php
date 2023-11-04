@@ -21,14 +21,14 @@ class UserRolePermissionSeeder extends Seeder
             'name' => 'Sazzad Bin Ashique',
             'email' => 'admin@gmail.com',
             'phone' => '01744938010',
-            'password' => bcrypt('1234567890'),
+            'password' => bcrypt('123456789'),
         ]);
 
         $account_person = User::create([
             'name' => 'Account person',
             'email' => 'account@gmail.com',
             'phone' => '01744938011',
-            'password' => bcrypt('1234567890'),
+            'password' => bcrypt('123456789'),
         ]);
         // permission create
         $permissions = [
@@ -45,6 +45,12 @@ class UserRolePermissionSeeder extends Seeder
             'role-permission-edit',
             'role-permission-show',
             'role-permission-delete',
+            'permission-access',
+            'permission-lists',
+            'permission-create',
+            'permission-edit',
+            'permission-show',
+            'permission-delete',
             'permission-assign',
         ];
         foreach ($permissions as $permission) {
@@ -68,6 +74,12 @@ class UserRolePermissionSeeder extends Seeder
                 'role-permission-edit',
                 'role-permission-show',
                 'role-permission-delete',
+                'permission-access',
+                'permission-lists',
+                'permission-create',
+                'permission-edit',
+                'permission-show',
+                'permission-delete',
                 'permission-assign',
 
             ]);
