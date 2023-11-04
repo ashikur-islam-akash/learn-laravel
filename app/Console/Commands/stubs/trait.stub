@@ -1,0 +1,11 @@
+<?php
+namespace App\Traits;
+
+trait {{traitName}} {
+
+    public function index() {
+
+        // your code to trait...
+    }
+
+}

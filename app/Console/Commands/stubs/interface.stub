@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Repositories\{{interfaceName}};
+
+
+interface {{interfaceName}}Interface
+{
+    // Add your interface methods here...
+
+}

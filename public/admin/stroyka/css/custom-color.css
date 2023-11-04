@@ -1,0 +1,43 @@
+.btn-success {
+    --sa-button--normal-bg-color: #3D9E47;
+}
+.btn-danger {
+    --sa-button--normal-bg-color: #ED1414;
+}
+.btn-purple {
+    --sa-button--normal-bg-color: #933BD8;
+    --sa-button--normal-font-color: #fff;
+    --sa-arrow-opacity: 0.5;
+    --sa-button--hover-bg-color: #8635c4;
+}
+.btn-green {
+    --sa-button--normal-bg-color: #007F3D;
+    --sa-button--normal-font-color: #fff;
+    --sa-arrow-opacity: 0.5;
+    --sa-button--hover-bg-color: #016b34;
+}
+.btn-cerulean {
+    --sa-button--normal-bg-color: #119CCA;
+    --sa-button--normal-font-color: #fff;
+    --sa-arrow-opacity: 0.5;
+    --sa-button--hover-bg-color: #0f8db8;
+}
+.btn-dark-blue {
+    --sa-button--normal-bg-color: #034E6F;
+    --sa-button--normal-font-color: #fff;
+    --sa-arrow-opacity: 0.5;
+    --sa-button--hover-bg-color: #033449;
+}
+
+.bg_silver{
+    background: #F2F2F2 !important;
+}
+.bg_midnight_blue{
+    background: #033449 !important;
+    color: #fff !important;
+}
+.badge_lightgreen_outline{
+    border: 1px solid #9EB98C;
+    font-weight: 500;
+}
+

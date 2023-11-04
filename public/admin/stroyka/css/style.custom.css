@@ -1,0 +1,91 @@
+.bg-primary-soft {
+    background-color: #DEF4FF !important;
+}
+
+.custom_avatar {
+    /* vertical-align: middle;
+    text-align: center; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: x-large;
+}
+
+.custom-pt-10 {
+    padding-top: 10%;
+}
+
+.custom-text-align-left {
+    text-align: left !important;
+}
+
+.custom-hight-dashboard-card {
+    height: 130px;
+}
+
+.custom-widget-header {
+    justify-content: left !important;
+}
+
+[dir=ltr] .custom-widget-header__actions {
+    margin-right: 0.625rem !important;
+}
+
+.saw-indicator .custom-widget-header__title {
+    font-weight: 700 !important;
+    font-size: 1.2rem;
+}
+.custom-indicator__value{
+    text-align: left !important;
+    margin-left: 3.7rem !important;
+}
+.permission-checkbox{
+    padding-top: 1.3rem;
+    padding-right: 1.3rem;
+}
+
+.text-wrapping {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
+}
+.row_size{
+    width: 200px;
+
+}
+
+.pdf_table table tr td {
+    border: 1px solid #999;
+  }
+
+.pdf_table .copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1;
+}
+.text_limit_2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+ }
+
+/* Define the @media print rule */
+@media print {
+    .hide-in-print {
+      display: none; /* Hide the element when printing */
+    }
+  }
+
+
+
+/* scroll start */
+
+
+/* scroll end */
